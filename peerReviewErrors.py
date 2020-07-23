@@ -17,9 +17,12 @@ def displayIntro():
 
 def chooseCave():
     cave = ''
-	while cave != '1' and cave != '2':
-		print('Which cave will you go into? (1 or 2)')
-		cave = input()
+	#while cave != '1' and cave != '2':
+		#print('Which cave will you go into? (1 or 2)')
+		#cave = input()
+    while cave != '1' and cave != '2':
+    	print('Which cave will you go into? (1 or 2)')
+    	cave=input() # Indention is not 4 spaces
 
 	return caves
 
