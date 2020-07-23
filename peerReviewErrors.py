@@ -25,7 +25,7 @@ def chooseCave():
     	cave=input() # Indention is not 4 spaces
 
 	#return caves
-    return cave
+    return cave # variable name defined is cave
 
 def checkCave(chosenCave):
 	print('You approach the cave...')
@@ -43,7 +43,8 @@ def checkCave(chosenCave):
 	if chosenCave == str(friendlyCave):
 		print('Gives you his treasure!')
 	else:
-		print 'Gobbles you down in one bite!'
+		#print 'Gobbles you down in one bite!'
+		print('Gobbles you down in one bite!')
 
 playAgain = 'yes'
 while playAgain = 'yes' or playAgain = 'y':
