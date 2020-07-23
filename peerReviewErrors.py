@@ -24,7 +24,8 @@ def chooseCave():
     	print('Which cave will you go into? (1 or 2)')
     	cave=input() # Indention is not 4 spaces
 
-	return caves
+	#return caves
+    return cave
 
 def checkCave(chosenCave):
 	print('You approach the cave...')
